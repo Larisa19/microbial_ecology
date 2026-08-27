@@ -1,0 +1,38 @@
+# Nextflow
+work/
+.nextflow/
+.nextflow.log*
+
+# Raw sequencing data
+data/raw/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Results
+results/
+
+# macOS
+.DS_Store
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Apple
+*.numbers
+
+# Backup / development files
+*_backup.nf
+*_v*.nf
+modules/.DS_Store
+
+# Development / test files
+main_before_learnErrors.nf
+test_dada2.R
+test_metadata.nf
+workflow.txt
+command_history.txt
+accessions.txt
